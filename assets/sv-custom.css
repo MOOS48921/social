@@ -1,0 +1,14 @@
+/* SocialVia — homepage "Image with text" block (key: sv_product_intro) */
+
+/* Purple heading like Outty */
+[id$="__sv_product_intro"] .image-with-text__heading {
+  color: #7C3AED;
+}
+
+/* Purple pill button like Outty (drives Dawn's own button vars so hover/border match) */
+[id$="__sv_product_intro"] .button {
+  --color-button: 124, 58, 237;
+  --color-button-text: 255, 255, 255;
+  border-radius: 50px;
+  letter-spacing: 0.05em;
+}
