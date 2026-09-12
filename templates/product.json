@@ -1,1 +1,236 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{"share_label":"Share"}},"social-proof":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"sv-socialproof\">\n  <div class=\"sv-stars\">&#9733;&#9733;&#9733;&#9733;&#9733; <span class=\"sv-count\">Enjoyed by 35,000 Customers</span></div>\n  <p class=\"sv-quote\">\"I felt happier, calmer, and more confident &amp; outgoing.\" - Pamela W.</p>\n</div>\n<style>\n.sv-socialproof{margin-bottom:10px}\n.sv-stars{color:#7C3AED;font-size:19px;letter-spacing:2px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;line-height:1}\n.sv-count{color:#111;font-weight:700;font-size:16px;letter-spacing:0}\n.sv-quote{margin:8px 0 0;font-weight:600;color:#333;font-size:16px;line-height:1.4}\n</style>"}},"yellow-badge":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"sv-amazon-badge\">These Discounts Aren't On Amazon</div>\n<style>.sv-amazon-badge{background:#FFF8CC;border:2px dashed #E5C100;border-radius:12px;padding:14px 18px;text-align:center;font-weight:800;color:#111;font-size:17px;margin:16px 0}.product__title h1,.product__title h2{font-size:42px;line-height:1.05;font-weight:800}@media (max-width:749px){.product__title h1,.product__title h2{font-size:30px}}</style>"}},"kaching-slot":{"type":"custom_liquid","settings":{"custom_liquid":"<div id=\"kaching-bundle-slot\" style=\"margin:16px 0\"></div>\n<!-- SocialVia: Kaching bundle widget komt hier -->"}},"trust-badges":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"sv-trust\"><span class=\"sv-trust-item\">&#128666; Free Shipping</span><span class=\"sv-trust-item\">&#9989; 60-Day Guarantee</span><span class=\"sv-trust-item\">&#129514; 3rd-Party Tested</span></div>\n<style>.sv-trust{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:16px 0;font-size:14px;color:#555;font-weight:600}.sv-trust-item{display:flex;align-items:center;gap:6px}</style>"}}},"block_order":["social-proof","title","yellow-badge","kaching-slot","price","variant_picker","quantity_selector","buy_buttons","trust-badges","description","share"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","mobile_thumbnails":"hide","media_position":"left","image_zoom":"lightbox","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"disclosures":{"type":"disclosures","settings":{"padding_top":36,"padding_bottom":0}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"padding_top":36,"padding_bottom":28}}},"order":["main","disclosures","related-products"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "social-proof": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sv-socialproof\">\n  <div class=\"sv-stars\">&#9733;&#9733;&#9733;&#9733;&#9733; <span class=\"sv-count\">Enjoyed by 35,000 Customers</span></div>\n  <p class=\"sv-quote\">\"I felt happier, calmer, and more confident &amp; outgoing.\" - Pamela W.</p>\n</div>\n<style>\n.sv-socialproof{margin-bottom:10px}\n.sv-stars{color:#7C3AED;font-size:19px;letter-spacing:2px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;line-height:1}\n.sv-count{color:#111;font-weight:700;font-size:16px;letter-spacing:0}\n.sv-quote{margin:8px 0 0;font-weight:600;color:#333;font-size:16px;line-height:1.4}\n</style>"
+          }
+        },
+        "yellow-badge": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sv-amazon-badge\">These Discounts Aren't On Amazon</div>\n<style>.sv-amazon-badge{background:#FFF8CC;border:2px dashed #E5C100;border-radius:12px;padding:14px 18px;text-align:center;font-weight:800;color:#111;font-size:17px;margin:16px 0}.product__title h1,.product__title h2{font-size:42px;line-height:1.05;font-weight:800}@media (max-width:749px){.product__title h1,.product__title h2{font-size:30px}}</style>"
+          }
+        },
+        "kaching-slot": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"kaching-bundle-slot\" style=\"margin:16px 0\"></div>\n<!-- SocialVia: Kaching bundle widget komt hier -->"
+          }
+        },
+        "trust-badges": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sv-trust\"><span class=\"sv-trust-item\">&#128666; Free Shipping</span><span class=\"sv-trust-item\">&#9989; 60-Day Guarantee</span><span class=\"sv-trust-item\">&#129514; 3rd-Party Tested</span></div>\n<style>.sv-trust{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:16px 0;font-size:14px;color:#555;font-weight:600}.sv-trust-item{display:flex;align-items:center;gap:6px}</style>"
+          }
+        }
+      },
+      "block_order": [
+        "social-proof",
+        "title",
+        "yellow-badge",
+        "kaching-slot",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "trust-badges",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "disclosures": {
+      "type": "disclosures",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "pdp_testimonial": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "★★★★★ VERIFIED REVIEW",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"As an introvert, this helps me be more outgoing without relying on alcohol. And when I need to get work done, it gives me a level of focus without the jitters — I can grind for hours. Highly recommend.\"</p><p><strong>— Jordan P., Verified Buyer</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "text"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "color_scheme": "scheme-7",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pdp_whats_inside": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.svwi{max-width:1000px;margin:0 auto;padding:0 20px;}.svwi-title{text-align:center;font-size:32px;font-weight:700;margin:0 0 32px;color:#121212;}.svwi-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}.svwi-card{background:#F4ECE0;border-radius:14px;padding:26px 28px;}.svwi-name{font-size:19px;font-weight:700;color:#7C3AED;margin:0 0 8px;}.svwi-desc{font-size:15px;line-height:1.55;color:#333;margin:0;}@media screen and (max-width:749px){.svwi-grid{grid-template-columns:1fr;}}</style><div class=\"svwi\"><h2 class=\"svwi-title\">What's Inside</h2><div class=\"svwi-grid\"><div class=\"svwi-card\"><p class=\"svwi-name\">L-Theanine</p><p class=\"svwi-desc\">Calm, focused energy — takes the edge off without making you drowsy.</p></div><div class=\"svwi-card\"><p class=\"svwi-name\">GABA</p><p class=\"svwi-desc\">Quiets overthinking so you can relax into the moment.</p></div><div class=\"svwi-card\"><p class=\"svwi-name\">Taurine</p><p class=\"svwi-desc\">Smooth, steady energy that won't spike or crash.</p></div><div class=\"svwi-card\"><p class=\"svwi-name\">Ashwagandha (KSM-66®)</p><p class=\"svwi-desc\">An adaptogen that helps your body handle stress and stay balanced.</p></div></div></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "pdp_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is SocialVia?",
+            "row_content": "<p>A nootropic &amp; adaptogen drink mix that helps you feel social and focused without alcohol. One stick in water, and about twenty minutes later the edge is gone.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does it work?",
+            "row_content": "<p>A blend of L-theanine, GABA and adaptogens calms overthinking while keeping you clear and present — the ease alcohol gives you, without the downside.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often can I take it?",
+            "row_content": "<p>Daily if you like. Most people use it before social situations, meetings, or whenever they want to take the edge off.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a crash?",
+            "row_content": "<p>No. No sugar crash, no hangover, no fog — it winds down gently.</p>"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there any alcohol in SocialVia?",
+            "row_content": "<p>None. Zero alcohol — just functional ingredients.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "desktop_layout": "section",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "pdp_testimonial",
+    "pdp_whats_inside",
+    "pdp_faq",
+    "disclosures",
+    "related-products"
+  ]
+}
