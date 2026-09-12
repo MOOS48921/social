@@ -58,13 +58,6 @@
         -%}
         {%- for block in section.blocks -%}
           {%- assign empty_column = '' -%}
-          {%- if block.settings.image == blank
-            and block.settings.title == blank
-            and block.settings.text == blank
-            and block.settings.link_label == blank
-          -%}
-            {%- assign empty_column = ' multicolumn-list__item--empty' -%}
-          {%- endif -%}
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -115,6 +108,12 @@
                         sizes: sizes,
                         class: 'multicolumn-card__image'
                     }}
+                  </div>
+                </div>
+              {%- else -%}
+                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width">
+                  <div class="media media--transparent media--{{ section.settings.image_ratio }}">
+                    {{ 'image' | placeholder_svg_tag: 'multicolumn-card__image placeholder-svg' }}
                   </div>
                 </div>
               {%- endif -%}
