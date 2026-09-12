@@ -190,56 +190,10 @@
         "button_link": ""
       }
     },
-    "sv_reviews": {
-      "type": "sv-reviews",
-      "blocks": {
-        "r1": {
-          "type": "review",
-          "settings": {
-            "tag": "SOCIALVIA",
-            "headline": "\"My new go-to\"",
-            "body": "I love it for when I don't want to drink but still want to feel social. One stick in water and twenty minutes later the edge is gone — I get the ease alcohol used to give me, without the slump the next day.",
-            "author": "ERIN M., VERIFIED BUYER"
-          }
-        },
-        "r2": {
-          "type": "review",
-          "settings": {
-            "tag": "SOCIALVIA",
-            "headline": "\"I stopped dreading dinners\"",
-            "body": "Took a stick before my husband's company holiday party. Twenty minutes in I was actually talking — not rehearsing. No buzz, no fog. Just me, but the version that shows up.",
-            "author": "SAM T., VERIFIED BUYER"
-          }
-        },
-        "r3": {
-          "type": "review",
-          "settings": {
-            "tag": "SOCIALVIA",
-            "headline": "\"Replaces my third drink\"",
-            "body": "The first couple of drinks I still enjoy. The third one was always autopilot. Now I reach for a SocialVia instead and I still feel like I'm in the night, not winding down at 9pm.",
-            "author": "MARCUS L., VERIFIED BUYER"
-          }
-        },
-        "r4": {
-          "type": "review",
-          "settings": {
-            "tag": "SOCIALVIA",
-            "headline": "\"Worth every penny\"",
-            "body": "I have generalized anxiety and this is the only thing I've tried that doesn't make me feel medicated. It just turns the volume down. I keep a stick in every jacket.",
-            "author": "RILEY A., VERIFIED BUYER"
-          }
-        }
-      },
-      "block_order": [
-        "r1",
-        "r2",
-        "r3",
-        "r4"
-      ],
+    "sv_reviews_cl": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "",
-        "button_label": "SHOP SOCIALVIA",
-        "button_link": "/collections/all",
+        "custom_liquid": "<style>.svrev-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1120px;margin:0 auto;padding:0 20px;}.svrev-card{background:#FFFFFF;border-radius:16px;padding:34px 38px;display:flex;flex-direction:column;}.svrev-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;}.svrev-stars{color:#7C3AED;font-size:18px;letter-spacing:3px;}.svrev-tag{color:#7C3AED;font-weight:700;font-size:13px;letter-spacing:.09em;}.svrev-headline{font-size:22px;font-weight:700;line-height:1.25;margin:0 0 14px;color:#121212;}.svrev-body{font-size:16px;line-height:1.55;color:#333;margin:0 0 24px;flex:1 1 auto;}.svrev-author{font-size:13px;letter-spacing:.07em;color:#7a7a7a;text-transform:uppercase;}.svrev-cta{text-align:center;margin-top:40px;}.svrev-button{display:inline-block;background:#7C3AED;color:#fff;font-weight:700;font-size:16px;letter-spacing:.05em;padding:18px 52px;border-radius:50px;text-decoration:none;}@media screen and (max-width:749px){.svrev-grid{grid-template-columns:1fr;}.svrev-card{padding:28px 26px;}}</style><div class=\"svrev-grid\"><div class=\"svrev-card\"><div class=\"svrev-top\"><span class=\"svrev-stars\">★★★★★</span><span class=\"svrev-tag\">SOCIALVIA</span></div><h3 class=\"svrev-headline\">\"My new go-to\"</h3><p class=\"svrev-body\">I love it for when I don't want to drink but still want to feel social. One stick in water and twenty minutes later the edge is gone — I get the ease alcohol used to give me, without the slump the next day.</p><span class=\"svrev-author\">ERIN M., VERIFIED BUYER</span></div><div class=\"svrev-card\"><div class=\"svrev-top\"><span class=\"svrev-stars\">★★★★★</span><span class=\"svrev-tag\">SOCIALVIA</span></div><h3 class=\"svrev-headline\">\"I stopped dreading dinners\"</h3><p class=\"svrev-body\">Took a stick before my husband's company holiday party. Twenty minutes in I was actually talking — not rehearsing. No buzz, no fog. Just me, but the version that shows up.</p><span class=\"svrev-author\">SAM T., VERIFIED BUYER</span></div><div class=\"svrev-card\"><div class=\"svrev-top\"><span class=\"svrev-stars\">★★★★★</span><span class=\"svrev-tag\">SOCIALVIA</span></div><h3 class=\"svrev-headline\">\"Replaces my third drink\"</h3><p class=\"svrev-body\">The first couple of drinks I still enjoy. The third one was always autopilot. Now I reach for a SocialVia instead and I still feel like I'm in the night, not winding down at 9pm.</p><span class=\"svrev-author\">MARCUS L., VERIFIED BUYER</span></div><div class=\"svrev-card\"><div class=\"svrev-top\"><span class=\"svrev-stars\">★★★★★</span><span class=\"svrev-tag\">SOCIALVIA</span></div><h3 class=\"svrev-headline\">\"Worth every penny\"</h3><p class=\"svrev-body\">I have generalized anxiety and this is the only thing I've tried that doesn't make me feel medicated. It just turns the volume down. I keep a stick in every jacket.</p><span class=\"svrev-author\">RILEY A., VERIFIED BUYER</span></div></div><div class=\"svrev-cta\"><a href=\"/collections/all\" class=\"svrev-button\">SHOP SOCIALVIA</a></div>",
         "color_scheme": "scheme-7",
         "padding_top": 60,
         "padding_bottom": 60
@@ -251,6 +205,6 @@
     "sv_product_intro",
     "sv_story",
     "sv_proof",
-    "sv_reviews"
+    "sv_reviews_cl"
   ]
 }
