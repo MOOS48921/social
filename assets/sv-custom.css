@@ -40,3 +40,16 @@
 [id$="__main"] .product__accordion summary { padding: 16px 0; }
 [id$="__main"] .product__accordion .accordion__title { font-weight: 700; }
 [id$="__main"] .product__accordion .accordion__content { padding-bottom: 18px; }
+
+/* Outty-style bold display font (Montserrat) for headings */
+:root { --font-heading-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important; }
+h1, h2, h3, .h0, .h1, .h2, .h3,
+.svcmp-title, .svcmp-sub, .svcmp-table th,
+.svfi-title, .svfi-name,
+.svswap-title, .svswap-cap, .svswap-h,
+.svlbt-title,
+.svtl-title, .svtl-cap, .svtl-h, .svtl-stage,
+.svst-title, .svst-h,
+.svrev-headline, .pdp-faq-title, .svfi-cap {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
