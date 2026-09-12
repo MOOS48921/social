@@ -1,0 +1,147 @@
+{%- style -%}
+  .sv-reviews-{{ section.id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+  }
+  .sv-reviews-{{ section.id }} .sv-reviews__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 34px 38px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card__stars {
+    color: #7C3AED;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card__tag {
+    color: #7C3AED;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.09em;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card__headline {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 14px;
+    color: #121212;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card__body {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #333333;
+    margin: 0 0 24px;
+    flex: 1 1 auto;
+  }
+  .sv-reviews-{{ section.id }} .sv-review-card__author {
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    color: #7a7a7a;
+    text-transform: uppercase;
+  }
+  .sv-reviews-{{ section.id }} .sv-reviews__cta {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .sv-reviews-{{ section.id }} .sv-reviews__button {
+    display: inline-block;
+    background: #7C3AED;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding: 18px 52px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 749px) {
+    .sv-reviews-{{ section.id }} .sv-reviews__grid { grid-template-columns: 1fr; }
+    .sv-reviews-{{ section.id }} .sv-review-card { padding: 28px 26px; }
+  }
+{%- endstyle -%}
+
+<div class="sv-reviews-{{ section.id }} color-{{ section.settings.color_scheme }}">
+  {%- if section.settings.heading != blank -%}
+    <h2 class="sv-reviews__title" style="text-align:center; margin: 0 0 36px;">{{ section.settings.heading }}</h2>
+  {%- endif -%}
+
+  <div class="sv-reviews__grid">
+    {%- for block in section.blocks -%}
+      <div class="sv-review-card" {{ block.shopify_attributes }}>
+        <div class="sv-review-card__top">
+          <span class="sv-review-card__stars">★★★★★</span>
+          {%- if block.settings.tag != blank -%}
+            <span class="sv-review-card__tag">{{ block.settings.tag }}</span>
+          {%- endif -%}
+        </div>
+        <h3 class="sv-review-card__headline">{{ block.settings.headline }}</h3>
+        <p class="sv-review-card__body">{{ block.settings.body }}</p>
+        {%- if block.settings.author != blank -%}
+          <span class="sv-review-card__author">{{ block.settings.author }}</span>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+
+  {%- if section.settings.button_label != blank -%}
+    <div class="sv-reviews__cta">
+      <a href="{{ section.settings.button_link | default: '#' }}" class="sv-reviews__button">
+        {{ section.settings.button_label }}
+      </a>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "SocialVia Reviews",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading (optional)", "default": "" },
+    { "type": "text", "id": "button_label", "label": "Button label", "default": "SHOP SOCIALVIA" },
+    { "type": "url", "id": "button_link", "label": "Button link" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-7" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding top", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding bottom", "default": 60 }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "text", "id": "tag", "label": "Tag (top right)", "default": "SOCIALVIA" },
+        { "type": "text", "id": "headline", "label": "Headline", "default": "\"My new go-to\"" },
+        { "type": "textarea", "id": "body", "label": "Review text", "default": "A great alternative to alcohol." },
+        { "type": "text", "id": "author", "label": "Author", "default": "VERIFIED BUYER" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "SocialVia Reviews",
+      "blocks": [
+        { "type": "review" },
+        { "type": "review" },
+        { "type": "review" },
+        { "type": "review" }
+      ]
+    }
+  ]
+}
+{% endschema %}
