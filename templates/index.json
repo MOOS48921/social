@@ -198,6 +198,54 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "sv_guarantee": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUR GUARANTEE TO YOU",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "It works or it's free.",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Try SocialVia for 60 days. If it's not for you, we'll refund you. No hoops to jump through.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP SOCIALVIA",
+            "button_link": "/collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -205,6 +253,7 @@
     "sv_product_intro",
     "sv_story",
     "sv_proof",
-    "sv_reviews_cl"
+    "sv_reviews_cl",
+    "sv_guarantee"
   ]
 }
