@@ -62,6 +62,44 @@
           "settings": {
             "custom_liquid": "<div class=\"sv-trust\"><span class=\"sv-trust-item\">&#128666; Free Shipping</span><span class=\"sv-trust-item\">&#9989; 60-Day Guarantee</span><span class=\"sv-trust-item\">&#129514; 3rd-Party Tested</span></div>\n<style>.sv-trust{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:16px 0;font-size:14px;color:#555;font-weight:600}.sv-trust-item{display:flex;align-items:center;gap:6px}</style>"
           }
+        },
+        "faq-title": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"pdp-faq-title\">FREQUENTLY ASKED QUESTIONS</p>"
+          }
+        },
+        "faq1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is there any alcohol or THC in SocialVia?",
+            "icon": "none",
+            "content": "<p>No. SocialVia contains zero alcohol and zero THC — just functional nootropics and adaptogens.</p>"
+          }
+        },
+        "faq2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When should I drink SocialVia?",
+            "icon": "none",
+            "content": "<p>About 20 minutes before you want to feel it — before a social event, a meeting, a date, or whenever you want to take the edge off. Just mix one stick into water.</p>"
+          }
+        },
+        "faq3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What does it feel like?",
+            "icon": "none",
+            "content": "<p>Calm and clear. The overthinking quiets down and you feel present and at ease — like the good part of a drink, without the buzz, fog, or hangover.</p>"
+          }
+        },
+        "faq4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does it taste?",
+            "icon": "none",
+            "content": "<p>Light and refreshing açaí mixed berry. Just stir one stick into water.</p>"
+          }
         }
       },
       "block_order": [
@@ -74,6 +112,11 @@
         "quantity_selector",
         "buy_buttons",
         "trust-badges",
+        "faq-title",
+        "faq1",
+        "faq2",
+        "faq3",
+        "faq4",
         "description",
         "share"
       ],
@@ -163,63 +206,10 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "pdp_faq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "q1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is there any alcohol or THC in SocialVia?",
-            "row_content": "<p>No. SocialVia contains zero alcohol and zero THC — just functional nootropics and adaptogens.</p>"
-          }
-        },
-        "q2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "When should I drink SocialVia?",
-            "row_content": "<p>About 20 minutes before you want to feel it — before a social event, a meeting, a date, or whenever you want to take the edge off. Just mix one stick into water.</p>"
-          }
-        },
-        "q3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What does it feel like?",
-            "row_content": "<p>Calm and clear. The overthinking quiets down and you feel present and at ease — like the good part of a drink, without the buzz, fog, or hangover.</p>"
-          }
-        },
-        "q4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does it taste?",
-            "row_content": "<p>Light and refreshing açaí mixed berry. Just stir one stick into water.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h2",
-        "heading_alignment": "left",
-        "layout": "row",
-        "container_color_scheme": "scheme-7",
-        "color_scheme": "scheme-1",
-        "open_first_collapsible_row": false,
-        "desktop_layout": "section",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
     }
   },
   "order": [
     "main",
-    "pdp_faq",
     "pdp_testimonial",
     "pdp_whats_inside",
     "disclosures",

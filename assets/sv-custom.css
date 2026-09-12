@@ -21,3 +21,22 @@
   letter-spacing: 0.06em;
   font-size: 1.6rem;
 }
+
+/* PDP FAQ (collapsible_tab blocks) in right column, Outty cream style */
+.pdp-faq-title {
+  color: #7C3AED;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 26px 0 14px;
+}
+[id$="__main"] .product__accordion {
+  background: #F4ECE0;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding: 2px 18px;
+}
+[id$="__main"] .product__accordion summary { padding: 16px 0; }
+[id$="__main"] .product__accordion .accordion__title { font-weight: 700; }
+[id$="__main"] .product__accordion .accordion__content { padding-bottom: 18px; }
