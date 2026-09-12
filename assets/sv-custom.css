@@ -6,7 +6,8 @@
 }
 
 /* Purple pill button like Outty (drives Dawn's own button vars so hover/border match) */
-[id$="__sv_product_intro"] .button {
+[id$="__sv_product_intro"] .button,
+[id$="__sv_guarantee"] .button {
   --color-button: 124, 58, 237;
   --color-button-text: 255, 255, 255;
   border-radius: 50px;
