@@ -242,6 +242,15 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "pdp_compare": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.svcmp{max-width:1100px;margin:0 auto;padding:0 20px;}.svcmp-title{text-align:center;font-size:44px;font-weight:800;text-transform:uppercase;margin:0 0 14px;color:#121212;line-height:1.1;}.svcmp-sub{text-align:center;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#8a8574;margin:0 0 40px;}.svcmp-wrap{overflow-x:auto;}.svcmp-table{width:100%;border-collapse:collapse;min-width:600px;}.svcmp-table th,.svcmp-table td{padding:16px 12px;text-align:center;font-size:16px;}.svcmp-table th{font-size:16px;font-weight:800;text-transform:uppercase;letter-spacing:.03em;color:#121212;}.svcmp-table th.us,.svcmp-table td.us{background:#F3EEFB;}.svcmp-table th.us{color:#7C3AED;}.svcmp-table .attr{text-align:left;font-size:16px;color:#222;width:40%;}.svcmp-table tbody tr{border-top:1px solid #ECECEC;}.svcmp-yes-us{color:#7C3AED;font-weight:700;font-size:19px;}.svcmp-yes{color:#555;font-size:19px;}.svcmp-no{color:#C0C0C0;font-size:19px;}.svcmp-note{color:#666;font-size:14px;}.svcmp-cta{text-align:center;margin-top:46px;}.svcmp-btn{display:inline-block;background:#7C3AED;color:#fff;font-weight:800;font-size:18px;letter-spacing:.04em;padding:20px 52px;border-radius:50px;text-decoration:none;text-transform:uppercase;cursor:pointer;}@media screen and (max-width:749px){.svcmp-title{font-size:28px;}.svcmp-sub{font-size:14px;}}</style><div class=\"svcmp\"><h2 class=\"svcmp-title\">Socialevia vs. The Usual Suspects</h2><p class=\"svcmp-sub\">Three drinks. Three different jobs. Here's how they line up.</p><div class=\"svcmp-wrap\"><table class=\"svcmp-table\"><thead><tr><th class=\"attr\"></th><th class=\"us\">Socialevia</th><th>Alcohol</th><th>Energy Drinks</th></tr></thead><tbody><tr><td class=\"attr\">Loosens you up in social settings</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-yes\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">Gives you a buzz</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span> <span class=\"svcmp-note\">(light)</span></td><td><span class=\"svcmp-yes\">✓</span> <span class=\"svcmp-note\">(heavy)</span></td><td><span class=\"svcmp-yes\">✓</span> <span class=\"svcmp-note\">(wired)</span></td></tr><tr><td class=\"attr\">Clear head the next morning</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td><td><span class=\"svcmp-yes\">✓</span></td></tr><tr><td class=\"attr\">Won't wreck your sleep</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">Under 100 calories</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">No sugar crash</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">Fits in at the bar</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-yes\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">Gets you drunk</td><td class=\"us\"><span class=\"svcmp-no\">✕</span></td><td><span class=\"svcmp-yes\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">Won't leave you jittery</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-yes\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td></tr><tr><td class=\"attr\">Supports mood, not just energy</td><td class=\"us\"><span class=\"svcmp-yes-us\">✓</span></td><td><span class=\"svcmp-no\">✕</span></td><td><span class=\"svcmp-no\">✕</span></td></tr></tbody></table></div><div class=\"svcmp-cta\"><a href=\"#\" class=\"svcmp-btn\" onclick=\"window.scrollTo({top:0,behavior:'smooth'});return false;\">Take The Edge Off →</a></div></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -252,6 +261,7 @@
     "pdp_timeline",
     "pdp_whats_inside",
     "pdp_steps",
+    "pdp_compare",
     "disclosures",
     "related-products"
   ]
