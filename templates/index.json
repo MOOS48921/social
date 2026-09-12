@@ -97,10 +97,56 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "sv_story": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUR STORY",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "It started in a kitchen in Jersey.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I got diagnosed with ADHD as a kid.</p><p>I didn't want to live on medication as an adult, so I went looking for another way.</p><p>I spent years reading about nootropics and adaptogens and testing combinations on myself.</p><p>I had also stopped drinking around then.</p><p>So when I finally landed on a formula that worked, I noticed it did more than help me focus.</p><p>It made being around people feel easy. The thing alcohol used to do for me at parties, this did better — and I remembered the whole night.</p><p>That formula became SocialVia.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "sv_hero_banner",
-    "sv_product_intro"
+    "sv_product_intro",
+    "sv_story"
   ]
 }
