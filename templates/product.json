@@ -170,36 +170,29 @@
         "q1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is SocialVia?",
-            "row_content": "<p>A nootropic &amp; adaptogen drink mix that helps you feel social and focused without alcohol. One stick in water, and about twenty minutes later the edge is gone.</p>"
+            "heading": "Is there any alcohol or THC in SocialVia?",
+            "row_content": "<p>No. SocialVia contains zero alcohol and zero THC — just functional nootropics and adaptogens.</p>"
           }
         },
         "q2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does it work?",
-            "row_content": "<p>A blend of L-theanine, GABA and adaptogens calms overthinking while keeping you clear and present — the ease alcohol gives you, without the downside.</p>"
+            "heading": "When should I drink SocialVia?",
+            "row_content": "<p>About 20 minutes before you want to feel it — before a social event, a meeting, a date, or whenever you want to take the edge off. Just mix one stick into water.</p>"
           }
         },
         "q3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How often can I take it?",
-            "row_content": "<p>Daily if you like. Most people use it before social situations, meetings, or whenever they want to take the edge off.</p>"
+            "heading": "What does it feel like?",
+            "row_content": "<p>Calm and clear. The overthinking quiets down and you feel present and at ease — like the good part of a drink, without the buzz, fog, or hangover.</p>"
           }
         },
         "q4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is there a crash?",
-            "row_content": "<p>No. No sugar crash, no hangover, no fog — it winds down gently.</p>"
-          }
-        },
-        "q5": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is there any alcohol in SocialVia?",
-            "row_content": "<p>None. Zero alcohol — just functional ingredients.</p>"
+            "heading": "How does it taste?",
+            "row_content": "<p>Light and refreshing açaí mixed berry. Just stir one stick into water.</p>"
           }
         }
       },
@@ -207,16 +200,15 @@
         "q1",
         "q2",
         "q3",
-        "q4",
-        "q5"
+        "q4"
       ],
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "row",
-        "container_color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-7",
         "color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
         "desktop_layout": "section",
@@ -227,9 +219,9 @@
   },
   "order": [
     "main",
+    "pdp_faq",
     "pdp_testimonial",
     "pdp_whats_inside",
-    "pdp_faq",
     "disclosures",
     "related-products"
   ]

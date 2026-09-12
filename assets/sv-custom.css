@@ -13,3 +13,11 @@
   border-radius: 50px;
   letter-spacing: 0.05em;
 }
+
+/* PDP FAQ heading purple like Outty */
+[id$="__pdp_faq"] .collapsible-content__heading {
+  color: #7C3AED;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 1.6rem;
+}
