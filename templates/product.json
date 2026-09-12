@@ -206,11 +206,21 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
+    },
+    "pdp_swap": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.svswap{max-width:1150px;margin:0 auto;padding:0 20px;text-align:center;}.svswap-cap{color:#7C3AED;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin:0 0 14px;}.svswap-title{font-size:40px;font-weight:800;text-transform:uppercase;line-height:1.1;margin:0 0 44px;color:#121212;}.svswap-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;}.svswap-col{text-align:center;}.svswap-emoji{font-size:26px;line-height:1;}.svswap-h{font-size:19px;font-weight:700;margin:10px 0 10px;color:#121212;}.svswap-d{font-size:15px;line-height:1.55;color:#444;margin:0;}@media screen and (max-width:989px){.svswap-grid{grid-template-columns:1fr 1fr;gap:34px 24px;}.svswap-title{font-size:30px;}}@media screen and (max-width:600px){.svswap-grid{grid-template-columns:1fr;}}</style><div class=\"svswap\"><p class=\"svswap-cap\">WHAT MAKES SOCIALVIA DIFFERENT</p><h2 class=\"svswap-title\">Why SocialVia Is The Perfect Swap For Booze</h2><div class=\"svswap-grid\"><div class=\"svswap-col\"><div class=\"svswap-emoji\">😌</div><p class=\"svswap-h\">Stay Calm Without Getting Sloppy</p><p class=\"svswap-d\">Relaxed and clear-headed at the same time. You stay you the whole night.</p></div><div class=\"svswap-col\"><div class=\"svswap-emoji\">⚡</div><p class=\"svswap-h\">A Social Battery That Lasts The Whole Night</p><p class=\"svswap-d\">No fading out at hour two and no crash on the way home.</p></div><div class=\"svswap-col\"><div class=\"svswap-emoji\">🍹</div><p class=\"svswap-h\">Mixes Into Anything</p><p class=\"svswap-d\">Açaí berry flavor that works in water, juice, or sparkling soda. Your drink, your way.</p></div><div class=\"svswap-col\"><div class=\"svswap-emoji\">🌅</div><p class=\"svswap-h\">Zero Hangover</p><p class=\"svswap-d\">Wake up fine, with your morning and your whole next day still yours.</p></div></div></div>",
+        "color_scheme": "scheme-7",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "main",
     "pdp_testimonial",
+    "pdp_swap",
     "pdp_whats_inside",
     "disclosures",
     "related-products"
