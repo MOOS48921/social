@@ -46,9 +46,16 @@
             "heading": "Policy",
             "menu": "footer-policy"
           }
+        },
+        "brand": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
+        "brand",
         "col_products",
         "col_customer",
         "col_info",

@@ -71,3 +71,13 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
   padding-top: 6px;
   padding-bottom: 6px;
 }
+
+/* Footer: reserve a wide left column for the logo (Outty-style) */
+@media screen and (min-width: 990px) {
+  .footer .footer__blocks-wrapper {
+    grid-template-columns: 1.5fr repeat(4, 1fr) !important;
+    column-gap: 34px;
+    align-items: start;
+  }
+}
+.footer .footer-block__brand-info { min-height: 40px; }
