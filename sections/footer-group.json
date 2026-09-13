@@ -19,12 +19,6 @@
         "padding_bottom": 40
       },
       "blocks": {
-        "brand": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
         "col_products": {
           "type": "link_list",
           "settings": {
@@ -55,7 +49,6 @@
         }
       },
       "block_order": [
-        "brand",
         "col_products",
         "col_customer",
         "col_info",

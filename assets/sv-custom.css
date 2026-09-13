@@ -53,3 +53,21 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
 .svrev-headline, .pdp-faq-title, .svfi-cap {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
+
+/* Footer: purple stripe band on top (Outty-style) + tidy column headings */
+.sv-footer-stripe {
+  width: 100%;
+  height: 46px;
+  background: linear-gradient(to bottom, #A78BFA 0 60%, #4C2A85 60% 100%);
+}
+.footer .footer-block__heading {
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+.footer .footer-block--menu .list-menu__item {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
