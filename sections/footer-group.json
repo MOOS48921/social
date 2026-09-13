@@ -15,7 +15,7 @@
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 50,
+        "padding_top": 48,
         "padding_bottom": 40
       },
       "blocks": {
@@ -26,31 +26,31 @@
           }
         },
         "col_products": {
-          "type": "text",
+          "type": "link_list",
           "settings": {
             "heading": "Products",
-            "subtext": "<p><a href=\"/collections/all\">Shop Socialevia</a><br><a href=\"/collections/all\">Subscribe &amp; Save</a></p>"
+            "menu": "footer-products"
           }
         },
         "col_customer": {
-          "type": "text",
+          "type": "link_list",
           "settings": {
             "heading": "Customer",
-            "subtext": "<p><a href=\"/account\">Manage Subscription</a><br><a href=\"/account\">Orders</a><br><a href=\"/account\">My Account</a></p>"
+            "menu": "footer-customer"
           }
         },
         "col_info": {
-          "type": "text",
+          "type": "link_list",
           "settings": {
             "heading": "Information",
-            "subtext": "<p><a href=\"/pages/contact\">Contact Us</a><br><a href=\"/blogs/news\">Blog</a><br><a href=\"/pages/science-ingredients\">Science &amp; Ingredients</a></p>"
+            "menu": "footer-information"
           }
         },
         "col_policy": {
-          "type": "text",
+          "type": "link_list",
           "settings": {
             "heading": "Policy",
-            "subtext": "<p><a href=\"/policies/privacy-policy\">Privacy Policy</a><br><a href=\"/policies/terms-of-service\">Terms of Service</a><br><a href=\"/policies/refund-policy\">Refund Policy</a><br><a href=\"/pages/money-back-guarantee\">Money Back Guarantee</a></p>"
+            "menu": "footer-policy"
           }
         }
       },
