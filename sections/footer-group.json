@@ -1,1 +1,69 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"scheme-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 50,
+        "padding_bottom": 40
+      },
+      "blocks": {
+        "brand": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "col_products": {
+          "type": "text",
+          "settings": {
+            "heading": "Products",
+            "subtext": "<p><a href=\"/collections/all\">Shop Socialevia</a><br><a href=\"/collections/all\">Subscribe &amp; Save</a></p>"
+          }
+        },
+        "col_customer": {
+          "type": "text",
+          "settings": {
+            "heading": "Customer",
+            "subtext": "<p><a href=\"/account\">Manage Subscription</a><br><a href=\"/account\">Orders</a><br><a href=\"/account\">My Account</a></p>"
+          }
+        },
+        "col_info": {
+          "type": "text",
+          "settings": {
+            "heading": "Information",
+            "subtext": "<p><a href=\"/pages/contact\">Contact Us</a><br><a href=\"/blogs/news\">Blog</a><br><a href=\"/pages/science-ingredients\">Science &amp; Ingredients</a></p>"
+          }
+        },
+        "col_policy": {
+          "type": "text",
+          "settings": {
+            "heading": "Policy",
+            "subtext": "<p><a href=\"/policies/privacy-policy\">Privacy Policy</a><br><a href=\"/policies/terms-of-service\">Terms of Service</a><br><a href=\"/policies/refund-policy\">Refund Policy</a><br><a href=\"/pages/money-back-guarantee\">Money Back Guarantee</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "brand",
+        "col_products",
+        "col_customer",
+        "col_info",
+        "col_policy"
+      ]
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
