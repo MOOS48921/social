@@ -41,7 +41,8 @@
         "color_scheme": "scheme-1",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
-        "show_text_below": false
+        "show_text_below": false,
+        "image": "shopify://shop_images/magnific_a-wide-premium-commercial_BhbKuRXoQR.png"
       }
     },
     "sv_product_intro": {
@@ -95,7 +96,8 @@
         "mobile_content_alignment": "left",
         "color_scheme": "scheme-1",
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "image": "shopify://shop_images/magnific_a-clean-minimal-studio-pr_vQjsgYNa47.png"
       }
     },
     "sv_story": {
