@@ -142,7 +142,8 @@
         "mobile_content_alignment": "left",
         "color_scheme": "scheme-1",
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "image": "shopify://shop_images/4_foto_s_in_1.jpg"
       }
     },
     "sv_proof": {
@@ -257,22 +258,12 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "sv_collage": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>.svcol{max-width:760px;margin:0 auto;padding:0 20px;text-align:center;}.svcol img{width:100%;height:auto;display:block;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.10);}</style><div class=\"svcol\"><img src=\"https://cdn.shopify.com/s/files/1/0986/4082/2599/files/4_foto_s_in_1.jpg?v=1789422060&width=1200\" alt=\"Socialevia in the wild\" loading=\"lazy\"></div>",
-        "color_scheme": "scheme-7",
-        "padding_top": 40,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
     "sv_hero_banner",
     "sv_product_intro",
     "sv_inthewild",
-    "sv_collage",
     "sv_story",
     "sv_proof",
     "sv_reviews_cl",
