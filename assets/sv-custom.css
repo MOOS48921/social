@@ -87,3 +87,14 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
 .footer .footer-block__brand-info .footer__list-social .list-social__item { margin-left: 0; }
 /* Hide the now-empty separate newsletter block (moved into brand column) */
 .footer .footer__content-top .footer-block--newsletter { display: none; }
+
+/* Hero heading — Outty style: heavy bold + purple italic accent */
+[id$="__sv_hero_banner"] .banner__heading {
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+}
+[id$="__sv_hero_banner"] .banner__heading em {
+  color: #7C3AED;
+  font-style: italic;
+}
