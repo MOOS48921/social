@@ -98,3 +98,9 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
   color: #7C3AED;
   font-style: italic;
 }
+
+/* Hero: keep the text in the left half so it doesn't overlap the product image */
+@media screen and (min-width: 750px) {
+  [id$="__sv_hero_banner"] .banner__box { max-width: 600px; margin-right: auto; text-align: left; }
+  [id$="__sv_hero_banner"] .banner__content { justify-items: start; }
+}
