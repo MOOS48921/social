@@ -122,13 +122,13 @@
         "padding_bottom": 60
       }
     },
-    "sv_collage": {
+    "sv_video": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>.svcol{max-width:760px;margin:0 auto;padding:0 20px;text-align:center;}.svcol img{width:100%;height:auto;display:block;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.10);}</style><div class=\"svcol\"><img src=\"https://cdn.shopify.com/s/files/1/0986/4082/2599/files/4_foto_s_in_1.jpg?v=1789422060&width=1200\" alt=\"Socialevia in the wild\" loading=\"lazy\"></div>",
+        "custom_liquid": "<style>.svvid{max-width:720px;margin:0 auto;padding:0 20px;text-align:center;}.svvid-cap{text-align:center;color:#7C3AED;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin:0 0 12px;}.svvid-title{text-align:center;font-size:40px;font-weight:800;text-transform:uppercase;color:#1a1130;line-height:1.05;margin:0 0 30px;}.svvid video{width:100%;height:auto;display:block;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.14);background:#000;}@media screen and (max-width:749px){.svvid-title{font-size:27px;}}</style><div class=\"svvid\"><p class=\"svvid-cap\">See It In Action</p><h2 class=\"svvid-title\">One Stick. That's It.</h2><video src=\"https://cdn.shopify.com/videos/c/vp/5b27dc6f491144a7b9fd98dfa06684da/5b27dc6f491144a7b9fd98dfa06684da.SD-480p-1.5Mbps-94504702.mp4\" autoplay muted loop playsinline controls preload=\"metadata\"></video></div>",
         "color_scheme": "scheme-7",
-        "padding_top": 40,
-        "padding_bottom": 60
+        "padding_top": 52,
+        "padding_bottom": 56
       }
     },
     "sv_story": {
@@ -237,15 +237,6 @@
         "padding_top": 52,
         "padding_bottom": 52
       }
-    },
-    "sv_video": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>.svvid{max-width:720px;margin:0 auto;padding:0 20px;text-align:center;}.svvid-cap{text-align:center;color:#7C3AED;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin:0 0 12px;}.svvid-title{text-align:center;font-size:40px;font-weight:800;text-transform:uppercase;color:#1a1130;line-height:1.05;margin:0 0 30px;}.svvid video{width:100%;height:auto;display:block;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.14);background:#000;}@media screen and (max-width:749px){.svvid-title{font-size:27px;}}</style><div class=\"svvid\"><p class=\"svvid-cap\">See It In Action</p><h2 class=\"svvid-title\">One Stick. That's It.</h2><video src=\"https://cdn.shopify.com/videos/c/vp/5b27dc6f491144a7b9fd98dfa06684da/5b27dc6f491144a7b9fd98dfa06684da.SD-480p-1.5Mbps-94504702.mp4\" autoplay muted loop playsinline controls preload=\"metadata\"></video></div>",
-        "color_scheme": "scheme-7",
-        "padding_top": 52,
-        "padding_bottom": 56
-      }
     }
   },
   "order": [
@@ -253,7 +244,6 @@
     "sv_product_intro",
     "sv_inthewild",
     "sv_video",
-    "sv_collage",
     "sv_story",
     "sv_reviews_cl",
     "sv_guarantee"
