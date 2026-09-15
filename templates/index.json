@@ -178,59 +178,6 @@
         "padding_bottom": 40
       }
     },
-    "sv_proof": {
-      "type": "multicolumn",
-      "blocks": {
-        "col1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "col2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "col3": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "col1",
-        "col2",
-        "col3"
-      ],
-      "settings": {
-        "title": "The Proof is in the People",
-        "heading_size": "hxl",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-7",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
     "sv_reviews_cl": {
       "type": "custom-liquid",
       "settings": {
@@ -308,7 +255,6 @@
     "sv_video",
     "sv_collage",
     "sv_story",
-    "sv_proof",
     "sv_reviews_cl",
     "sv_guarantee"
   ]
