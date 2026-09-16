@@ -35,12 +35,6 @@
             "custom_liquid": "<div class=\"sv-amazon-badge\">These Discounts Aren't On Amazon</div>\n<style>.sv-amazon-badge{background:#FFF8CC;border:2px dashed #E5C100;border-radius:12px;padding:14px 18px;text-align:center;font-weight:800;color:#111;font-size:17px;margin:16px 0}.product__title h1,.product__title h2{font-size:42px;line-height:1.05;font-weight:800}@media (max-width:749px){.product__title h1,.product__title h2{font-size:30px}}</style>"
           }
         },
-        "kaching-slot": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div id=\"kaching-bundle-slot\" style=\"margin:16px 0\"></div>\n<!-- Socialevia: Kaching bundle widget komt hier -->"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -108,11 +102,10 @@
         }
       },
       "block_order": [
-        "kaching_bundles_app_block_PH9KmF",
         "social-proof",
         "title",
         "yellow-badge",
-        "kaching-slot",
+        "kaching_bundles_app_block_PH9KmF",
         "variant_picker",
         "trust-badges",
         "faq-title",
