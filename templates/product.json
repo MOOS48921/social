@@ -12,47 +12,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "social-proof": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div class=\"sv-socialproof\">\n  <div class=\"sv-stars\">&#9733;&#9733;&#9733;&#9733;&#9733; <span class=\"sv-count\">Enjoyed by 35,000 Customers</span></div>\n  <p class=\"sv-quote\">\"I felt happier, calmer, and more confident &amp; outgoing.\" - Pamela W.</p>\n</div>\n<style>\n.sv-socialproof{margin-bottom:10px}\n.sv-stars{color:#7C3AED;font-size:19px;letter-spacing:2px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;line-height:1}\n.sv-count{color:#111;font-weight:700;font-size:16px;letter-spacing:0}\n.sv-quote{margin:8px 0 0;font-weight:600;color:#333;font-size:16px;line-height:1.4}\n</style>"
           }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
         },
         "yellow-badge": {
           "type": "custom_liquid",
@@ -64,6 +32,13 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div id=\"kaching-bundle-slot\" style=\"margin:16px 0\"></div>\n<!-- Socialevia: Kaching bundle widget komt hier -->"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "trust-badges": {
@@ -83,7 +58,8 @@
           "settings": {
             "heading": "Is there any alcohol or THC in Socialevia?",
             "icon": "none",
-            "content": "<p>Socialevia won't get you high, and it does not give you a buzz. It does not work the way alcohol, opioids, or THC work. It turns on the happy part of your brain without making you sloppy or under the influence.</p>"
+            "content": "<p>Socialevia won't get you high, and it does not give you a buzz. It does not work the way alcohol, opioids, or THC work. It turns on the happy part of your brain without making you sloppy or under the influence.</p>",
+            "page": ""
           }
         },
         "faq2": {
@@ -91,7 +67,8 @@
           "settings": {
             "heading": "When should I drink Socialevia?",
             "icon": "none",
-            "content": "<p>Before going out. Before a date. Before a meeting. Before a dinner. Before catching up with old friends. Whenever you want to be more outgoing, relaxed, and fun around people.</p>"
+            "content": "<p>Before going out. Before a date. Before a meeting. Before a dinner. Before catching up with old friends. Whenever you want to be more outgoing, relaxed, and fun around people.</p>",
+            "page": ""
           }
         },
         "faq3": {
@@ -99,7 +76,8 @@
           "settings": {
             "heading": "What does it feel like?",
             "icon": "none",
-            "content": "<p>You don't feel buzzed or sloppy. When you drink Socialevia you feel relaxed, focused, happier, and more outgoing. It's not an overpowering feeling, but it's enough to enjoy being around people more than usual.</p>"
+            "content": "<p>You don't feel buzzed or sloppy. When you drink Socialevia you feel relaxed, focused, happier, and more outgoing. It's not an overpowering feeling, but it's enough to enjoy being around people more than usual.</p>",
+            "page": ""
           }
         },
         "faq4": {
@@ -107,7 +85,18 @@
           "settings": {
             "heading": "How does it taste?",
             "icon": "none",
-            "content": "<p>It's an Açaí Mixed Berry with a tangy, sweet, and slightly bitter finish. A lot of customers mix it with juice or lemonade to enjoy it as a delicious mocktail.</p>"
+            "content": "<p>It's an Açaí Mixed Berry with a tangy, sweet, and slightly bitter finish. A lot of customers mix it with juice or lemonade to enjoy it as a delicious mocktail.</p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -116,10 +105,7 @@
         "title",
         "yellow-badge",
         "kaching-slot",
-        "price",
         "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
         "trust-badges",
         "faq-title",
         "faq1",
@@ -145,38 +131,13 @@
         "padding_bottom": 12
       }
     },
-    "disclosures": {
-      "type": "disclosures",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "pdp_whats_inside": {
+    "pdp_testimonial": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>.svfi{max-width:1080px;margin:0 auto;padding:0 20px;}.svfi-cap{text-align:center;color:#7C3AED;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin:0 0 14px;}.svfi-title{text-align:center;font-size:40px;font-weight:800;text-transform:uppercase;line-height:1.1;color:#121212;margin:0 0 40px;}.svfi-panel{background:#F7F3E8;border-radius:20px;padding:36px 40px;}.svfi-layout{display:grid;grid-template-columns:0.9fr 1.1fr;gap:40px;align-items:stretch;}.svfi-media{border-radius:16px;width:100%;height:100%;min-height:420px;object-fit:cover;display:block;}.svfi-media--empty{background:#EDE7D6;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#B3A98A;font-weight:600;font-size:16px;line-height:1.6;}.svfi-list{display:flex;flex-direction:column;justify-content:center;}.svfi-item{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid #E4DECB;}.svfi-item:last-child{border-bottom:none;}.svfi-num{flex:0 0 34px;width:34px;height:34px;border-radius:50%;border:2px solid #7C3AED;color:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;}.svfi-name{font-size:18px;font-weight:800;text-transform:uppercase;color:#121212;margin:3px 0 7px;letter-spacing:.02em;}.svfi-desc{font-size:15px;line-height:1.5;color:#555;margin:0;}@media screen and (max-width:849px){.svfi-layout{grid-template-columns:1fr;gap:24px;}.svfi-media,.svfi-media--empty{min-height:260px;}.svfi-title{font-size:28px;}.svfi-panel{padding:24px 20px;}}.svfi-media{overflow:hidden;border-radius:14px;}.svfi-video{width:100%;height:100%;min-height:320px;object-fit:cover;display:block;}</style><div class=\"svfi\"><p class=\"svfi-cap\">What's Inside?</p><h2 class=\"svfi-title\">The Formula That Calms Your Nerves And Wakes Up Your Mind</h2><div class=\"svfi-panel\"><div class=\"svfi-layout\"><div class=\"svfi-media-wrap\"><div class=\"svfi-media\"><video class=\"svfi-video\" src=\"https://cdn.shopify.com/videos/c/vp/e61cb1ebc3d1490c9573a6ddb9ba9068/e61cb1ebc3d1490c9573a6ddb9ba9068.SD-480p-1.5Mbps-94512272.mp4\" autoplay muted loop playsinline preload=\"metadata\"></video></div></div><div class=\"svfi-list\"><div class=\"svfi-item\"><div class=\"svfi-num\">1</div><div><p class=\"svfi-name\">L-Theanine</p><p class=\"svfi-desc\">An amino acid from green tea that calms your nerves without making you sleepy. You feel relaxed and stay sharp at the same time.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">2</div><div><p class=\"svfi-name\">GABA</p><p class=\"svfi-desc\">The calming chemical your brain already makes on its own. It quiets the overthinking so you stop rehearsing what to say.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">3</div><div><p class=\"svfi-name\">TauroMag</p><p class=\"svfi-desc\">A form of magnesium built to reach your brain. It settles your nerves before you even walk in.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">4</div><div><p class=\"svfi-name\">Honokiol</p><p class=\"svfi-desc\">A magnolia bark extract that eases tension and takes the edge off — with no buzz or fog.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">5</div><div><p class=\"svfi-name\">Magnolol</p><p class=\"svfi-desc\">Works alongside Honokiol to keep you calm and clear without dulling you down.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">6</div><div><p class=\"svfi-name\">DL-Phenylalanine</p><p class=\"svfi-desc\">An amino acid your brain uses to make more dopamine. It lifts your mood and holds it up through the whole night.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">7</div><div><p class=\"svfi-name\">Taurine</p><p class=\"svfi-desc\">An amino acid that gives you smooth energy with zero caffeine. Your energy lasts the whole event and there's no crash after.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">8</div><div><p class=\"svfi-name\">Oroxylin A</p><p class=\"svfi-desc\">A rare bark extract that sharpens your focus. You stay in the conversation instead of drifting out of it.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">9</div><div><p class=\"svfi-name\">Rhodiola Rosea</p><p class=\"svfi-desc\">A root that helps your body handle stress. The longer you take it, the calmer you stay when things get tense.</p></div></div></div></div></div></div>",
-        "color_scheme": "scheme-1",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "custom_liquid": "<style>.svtest{max-width:1000px;margin:0 auto;padding:0 20px;}.svtest-card{background:#F7F3E8;border:2px dashed #7C3AED;border-radius:18px;padding:30px 36px;display:flex;align-items:center;gap:30px;}.svtest-photo{flex:0 0 130px;width:130px;height:130px;border-radius:50%;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.12);}.svtest-photo img{width:100%;height:100%;object-fit:cover;display:block;}.svtest-body{flex:1;min-width:0;}.svtest-quote{font-size:19px;line-height:1.5;color:#1a1130;margin:0 0 16px;}.svtest-name{font-weight:800;font-size:16px;color:#1a1130;margin:0;}.svtest-loc{font-size:14px;color:#8a8a8a;margin:3px 0 0;}@media screen and (max-width:749px){.svtest-card{flex-direction:column;text-align:center;padding:26px 22px;gap:18px;}.svtest-quote{font-size:17px;}}</style><div class=\"svtest\"><div class=\"svtest-card\"><div class=\"svtest-photo\"><img src=\"https://cdn.shopify.com/s/files/1/0986/4082/2599/files/staaf_in_t_midden_socialevia.png?v=1789410977&width=400\" alt=\"Drew J.\" loading=\"lazy\"></div><div class=\"svtest-body\"><p class=\"svtest-quote\">“As an introvert, this helps me be more outgoing without relying on alcohol but if I am needing to get work done, it gives you a level of focus without jitters. I can grind and get work done for hours. I highly recommend.”</p><p class=\"svtest-name\">Drew J.</p><p class=\"svtest-loc\">London, UK</p></div></div></div>",
+        "color_scheme": "scheme-7",
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "pdp_swap": {
@@ -204,6 +165,15 @@
         "color_scheme": "scheme-1",
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "pdp_whats_inside": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.svfi{max-width:1080px;margin:0 auto;padding:0 20px;}.svfi-cap{text-align:center;color:#7C3AED;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin:0 0 14px;}.svfi-title{text-align:center;font-size:40px;font-weight:800;text-transform:uppercase;line-height:1.1;color:#121212;margin:0 0 40px;}.svfi-panel{background:#F7F3E8;border-radius:20px;padding:36px 40px;}.svfi-layout{display:grid;grid-template-columns:0.9fr 1.1fr;gap:40px;align-items:stretch;}.svfi-media{border-radius:16px;width:100%;height:100%;min-height:420px;object-fit:cover;display:block;}.svfi-media--empty{background:#EDE7D6;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#B3A98A;font-weight:600;font-size:16px;line-height:1.6;}.svfi-list{display:flex;flex-direction:column;justify-content:center;}.svfi-item{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid #E4DECB;}.svfi-item:last-child{border-bottom:none;}.svfi-num{flex:0 0 34px;width:34px;height:34px;border-radius:50%;border:2px solid #7C3AED;color:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;}.svfi-name{font-size:18px;font-weight:800;text-transform:uppercase;color:#121212;margin:3px 0 7px;letter-spacing:.02em;}.svfi-desc{font-size:15px;line-height:1.5;color:#555;margin:0;}@media screen and (max-width:849px){.svfi-layout{grid-template-columns:1fr;gap:24px;}.svfi-media,.svfi-media--empty{min-height:260px;}.svfi-title{font-size:28px;}.svfi-panel{padding:24px 20px;}}.svfi-media{overflow:hidden;border-radius:14px;}.svfi-video{width:100%;height:100%;min-height:320px;object-fit:cover;display:block;}</style><div class=\"svfi\"><p class=\"svfi-cap\">What's Inside?</p><h2 class=\"svfi-title\">The Formula That Calms Your Nerves And Wakes Up Your Mind</h2><div class=\"svfi-panel\"><div class=\"svfi-layout\"><div class=\"svfi-media-wrap\"><div class=\"svfi-media\"><video class=\"svfi-video\" src=\"https://cdn.shopify.com/videos/c/vp/e61cb1ebc3d1490c9573a6ddb9ba9068/e61cb1ebc3d1490c9573a6ddb9ba9068.SD-480p-1.5Mbps-94512272.mp4\" autoplay muted loop playsinline preload=\"metadata\"></video></div></div><div class=\"svfi-list\"><div class=\"svfi-item\"><div class=\"svfi-num\">1</div><div><p class=\"svfi-name\">L-Theanine</p><p class=\"svfi-desc\">An amino acid from green tea that calms your nerves without making you sleepy. You feel relaxed and stay sharp at the same time.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">2</div><div><p class=\"svfi-name\">GABA</p><p class=\"svfi-desc\">The calming chemical your brain already makes on its own. It quiets the overthinking so you stop rehearsing what to say.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">3</div><div><p class=\"svfi-name\">TauroMag</p><p class=\"svfi-desc\">A form of magnesium built to reach your brain. It settles your nerves before you even walk in.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">4</div><div><p class=\"svfi-name\">Honokiol</p><p class=\"svfi-desc\">A magnolia bark extract that eases tension and takes the edge off — with no buzz or fog.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">5</div><div><p class=\"svfi-name\">Magnolol</p><p class=\"svfi-desc\">Works alongside Honokiol to keep you calm and clear without dulling you down.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">6</div><div><p class=\"svfi-name\">DL-Phenylalanine</p><p class=\"svfi-desc\">An amino acid your brain uses to make more dopamine. It lifts your mood and holds it up through the whole night.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">7</div><div><p class=\"svfi-name\">Taurine</p><p class=\"svfi-desc\">An amino acid that gives you smooth energy with zero caffeine. Your energy lasts the whole event and there's no crash after.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">8</div><div><p class=\"svfi-name\">Oroxylin A</p><p class=\"svfi-desc\">A rare bark extract that sharpens your focus. You stay in the conversation instead of drifting out of it.</p></div></div><div class=\"svfi-item\"><div class=\"svfi-num\">9</div><div><p class=\"svfi-name\">Rhodiola Rosea</p><p class=\"svfi-desc\">A root that helps your body handle stress. The longer you take it, the calmer you stay when things get tense.</p></div></div></div></div></div></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "pdp_steps": {
@@ -251,13 +221,33 @@
         "padding_bottom": 60
       }
     },
-    "pdp_testimonial": {
-      "type": "custom-liquid",
+    "disclosures": {
+      "type": "disclosures",
       "settings": {
-        "custom_liquid": "<style>.svtest{max-width:1000px;margin:0 auto;padding:0 20px;}.svtest-card{background:#F7F3E8;border:2px dashed #7C3AED;border-radius:18px;padding:30px 36px;display:flex;align-items:center;gap:30px;}.svtest-photo{flex:0 0 130px;width:130px;height:130px;border-radius:50%;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.12);}.svtest-photo img{width:100%;height:100%;object-fit:cover;display:block;}.svtest-body{flex:1;min-width:0;}.svtest-quote{font-size:19px;line-height:1.5;color:#1a1130;margin:0 0 16px;}.svtest-name{font-weight:800;font-size:16px;color:#1a1130;margin:0;}.svtest-loc{font-size:14px;color:#8a8a8a;margin:3px 0 0;}@media screen and (max-width:749px){.svtest-card{flex-direction:column;text-align:center;padding:26px 22px;gap:18px;}.svtest-quote{font-size:17px;}}</style><div class=\"svtest\"><div class=\"svtest-card\"><div class=\"svtest-photo\"><img src=\"https://cdn.shopify.com/s/files/1/0986/4082/2599/files/staaf_in_t_midden_socialevia.png?v=1789410977&width=400\" alt=\"Drew J.\" loading=\"lazy\"></div><div class=\"svtest-body\"><p class=\"svtest-quote\">“As an introvert, this helps me be more outgoing without relying on alcohol but if I am needing to get work done, it gives you a level of focus without jitters. I can grind and get work done for hours. I highly recommend.”</p><p class=\"svtest-name\">Drew J.</p><p class=\"svtest-loc\">London, UK</p></div></div></div>",
-        "color_scheme": "scheme-7",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "heading": "Disclosures",
+        "heading_size": "h2",
+        "open_by_default": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
       }
     }
   },
