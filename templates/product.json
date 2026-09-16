@@ -106,16 +106,30 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
+        },
+        "buybox-open": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sv-buybox-start\" hidden></div>"
+          }
+        },
+        "buybox-close": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sv-buybox-end\" hidden></div><script>(function(){function wrap(){if(document.querySelector(\".sv-buybox\"))return;var s=document.querySelector(\".sv-buybox-start\"),e=document.querySelector(\".sv-buybox-end\");if(!s||!e)return;var sb=s.parentElement,eb=e.parentElement,pp=sb.parentElement;if(!pp||eb.parentElement!==pp)return;var box=document.createElement(\"div\");box.className=\"sv-buybox\";pp.insertBefore(box,sb.nextSibling);var n=box.nextSibling;while(n&&n!==eb){var nx=n.nextSibling;box.appendChild(n);n=nx;}}wrap();document.addEventListener(\"DOMContentLoaded\",wrap);setTimeout(wrap,300);setTimeout(wrap,1200);})();</script>"
+          }
         }
       },
       "block_order": [
         "social-proof",
         "title",
         "yellow-badge",
+        "buybox-open",
         "kaching_bundles_app_block_PH9KmF",
         "variant_picker",
         "buy_buttons",
         "trust-badges",
+        "buybox-close",
         "faq-title",
         "faq1",
         "faq2",

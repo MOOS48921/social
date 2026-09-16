@@ -34,6 +34,23 @@
 /* Hide the black dynamic-checkout ("Buy it now") button — Outty has only one purple button */
 [id$="__main"] .shopify-payment-button { display: none !important; }
 
+/* Outty-style bordered buy box around bundle + variant + add to cart + trust row */
+.sv-buybox {
+  border: 1px solid #E4DEF5;
+  border-radius: 18px;
+  padding: 18px 16px 16px;
+  margin: 18px 0;
+  background: #fff;
+  box-shadow: 0 1px 12px rgba(90, 50, 160, .06);
+}
+.sv-buybox > * { margin-block: 10px; }
+.sv-buybox > *:first-child { margin-top: 0; }
+.sv-buybox > *:last-child { margin-bottom: 0; }
+/* hide the empty marker blocks so they add no gap */
+.sv-buybox-start, .sv-buybox-end { display: none !important; }
+.product__info-container > *:has(> .sv-buybox-start),
+.product__info-container > *:has(> .sv-buybox-end) { display: none !important; }
+
 /* PDP FAQ heading purple like Outty */
 [id$="__pdp_faq"] .collapsible-content__heading {
   color: #7C3AED;
