@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "kaching_bundles_app_block_PH9KmF": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        },
         "social-proof": {
           "type": "custom_liquid",
           "settings": {
@@ -101,6 +108,7 @@
         }
       },
       "block_order": [
+        "kaching_bundles_app_block_PH9KmF",
         "social-proof",
         "title",
         "yellow-badge",
@@ -252,7 +260,6 @@
     }
   },
   "order": [
-    "main",
     "pdp_testimonial",
     "pdp_swap",
     "pdp_loved",
@@ -261,6 +268,7 @@
     "pdp_steps",
     "pdp_compare",
     "pdp_people",
+    "main",
     "pdp_guarantee_box",
     "pdp_bigfaq",
     "disclosures",
