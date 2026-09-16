@@ -104,3 +104,14 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
   [id$="__sv_hero_banner"] .banner__box { max-width: 600px; margin-right: auto; text-align: left; }
   [id$="__sv_hero_banner"] .banner__content { justify-items: start; }
 }
+
+/* Hero — mobile: smaller heading so it doesn't overlap the product, better legibility */
+@media screen and (max-width: 749px) {
+  [id$="__sv_hero_banner"] .banner__heading {
+    font-size: 34px;
+    line-height: 1.05;
+    text-shadow: 0 1px 12px rgba(255,255,255,.55);
+  }
+  [id$="__sv_hero_banner"] .banner__text { text-shadow: 0 1px 8px rgba(255,255,255,.6); }
+  [id$="__sv_hero_banner"] .banner__box { max-width: 100%; }
+}
