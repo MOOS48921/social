@@ -261,6 +261,7 @@
     }
   },
   "order": [
+    "main",
     "pdp_testimonial",
     "pdp_swap",
     "pdp_loved",
@@ -269,7 +270,6 @@
     "pdp_steps",
     "pdp_compare",
     "pdp_people",
-    "main",
     "pdp_guarantee_box",
     "pdp_bigfaq",
     "disclosures",
