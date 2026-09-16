@@ -99,6 +99,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
         }
       },
       "block_order": [
@@ -107,6 +114,7 @@
         "yellow-badge",
         "kaching_bundles_app_block_PH9KmF",
         "variant_picker",
+        "buy_buttons",
         "trust-badges",
         "faq-title",
         "faq1",
