@@ -118,6 +118,12 @@
           "settings": {
             "custom_liquid": "<div class=\"sv-buybox-end\" hidden></div><script>(function(){function wrap(){if(document.querySelector(\".sv-buybox\"))return;var s=document.querySelector(\".sv-buybox-start\"),e=document.querySelector(\".sv-buybox-end\");if(!s||!e)return;var sb=s.parentElement,eb=e.parentElement,pp=sb.parentElement;if(!pp||eb.parentElement!==pp)return;var box=document.createElement(\"div\");box.className=\"sv-buybox\";pp.insertBefore(box,sb.nextSibling);var n=box.nextSibling;while(n&&n!==eb){var nx=n.nextSibling;box.appendChild(n);n=nx;}}wrap();document.addEventListener(\"DOMContentLoaded\",wrap);setTimeout(wrap,300);setTimeout(wrap,1200);})();</script>"
           }
+        },
+        "buybox-heading": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"sv-bb-heading\">CHOOSE YOUR QUANTITY:</p><style>.sv-bb-heading{font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:15px;color:#1A1A1A;margin:0 0 12px;}</style>"
+          }
         }
       },
       "block_order": [
@@ -125,6 +131,7 @@
         "title",
         "yellow-badge",
         "buybox-open",
+        "buybox-heading",
         "kaching_bundles_app_block_PH9KmF",
         "variant_picker",
         "buy_buttons",
