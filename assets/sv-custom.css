@@ -14,25 +14,25 @@
   letter-spacing: 0.05em;
 }
 
-/* PDP Add to cart — Outty purple pill (filled, not the outlined default) */
-[id$="__main"] .product-form__submit,
-[id$="__main"] .product-form__buttons .button {
+/* PDP Add to cart — EXACT Outty style: big full-width solid purple, uppercase bold */
+[id$="__main"] .product-form__submit {
   --color-button: 124, 58, 237;
   --color-button-text: 255, 255, 255;
   background: #7C3AED !important;
   color: #fff !important;
-  border-color: #7C3AED !important;
-  border-radius: 50px;
-  letter-spacing: 0.04em;
-  font-weight: 700;
+  border: none !important;
+  border-radius: 14px;
+  width: 100%;
+  min-height: 64px;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
-[id$="__main"] .product-form__submit::after,
-[id$="__main"] .product-form__buttons .button::after { box-shadow: none; }
-[id$="__main"] .product-form__submit:hover,
-[id$="__main"] .product-form__buttons .button:hover {
-  background: #6D28D9 !important;
-  border-color: #6D28D9 !important;
-}
+[id$="__main"] .product-form__submit::after { box-shadow: none; }
+[id$="__main"] .product-form__submit:hover:not([disabled]) { background: #6D28D9 !important; }
+/* Hide the black dynamic-checkout ("Buy it now") button — Outty has only one purple button */
+[id$="__main"] .shopify-payment-button { display: none !important; }
 
 /* PDP FAQ heading purple like Outty */
 [id$="__pdp_faq"] .collapsible-content__heading {
