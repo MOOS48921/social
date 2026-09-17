@@ -171,24 +171,44 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
   [id$="__sv_hero_banner"] .banner__content { justify-items: start; }
 }
 
-/* Hero — mobile: text sits ON the photo but in the empty top area (above the product) */
+/* Hero — mobile: NO image (like Outty), just nicely styled text on a clean background */
 @media screen and (max-width: 749px) {
+  [id$="__sv_hero_banner"] .banner__media,
+  [id$="__sv_hero_banner"] .banner__media img { display: none !important; }
+  [id$="__sv_hero_banner"] .banner,
+  [id$="__sv_hero_banner"] .banner--large,
+  [id$="__sv_hero_banner"] .banner--medium { min-height: 0 !important; height: auto !important; }
   [id$="__sv_hero_banner"] .banner__content {
-    align-items: start !important;
-    align-content: start !important;
-    padding-top: 26px;
+    position: static !important;
+    padding: 48px 22px 40px !important;
+    background: #F5F2FC;
   }
   [id$="__sv_hero_banner"] .banner__box {
-    max-width: 92%;
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
+    background: transparent;
   }
   [id$="__sv_hero_banner"] .banner__heading {
-    font-size: 32px;
-    line-height: 1.06;
-    text-shadow: 0 1px 10px rgba(255,255,255,.8), 0 1px 2px rgba(255,255,255,.95);
+    font-size: 42px;
+    line-height: 1.02;
+    text-shadow: none;
+    margin-bottom: 14px;
   }
   [id$="__sv_hero_banner"] .banner__text {
-    text-shadow: 0 1px 8px rgba(255,255,255,.9);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4A4458;
+    text-shadow: none;
+  }
+  [id$="__sv_hero_banner"] .banner__buttons { margin-top: 22px; }
+  [id$="__sv_hero_banner"] .banner__buttons .button {
+    background: #7C3AED !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 15px 40px;
   }
 }
