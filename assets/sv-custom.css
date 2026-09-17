@@ -171,13 +171,24 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
   [id$="__sv_hero_banner"] .banner__content { justify-items: start; }
 }
 
-/* Hero — mobile: smaller heading so it doesn't overlap the product, better legibility */
+/* Hero — mobile: text sits ON the photo but in the empty top area (above the product) */
 @media screen and (max-width: 749px) {
-  [id$="__sv_hero_banner"] .banner__heading {
-    font-size: 34px;
-    line-height: 1.05;
-    text-shadow: 0 1px 12px rgba(255,255,255,.55);
+  [id$="__sv_hero_banner"] .banner__content {
+    align-items: start !important;
+    align-content: start !important;
+    padding-top: 26px;
   }
-  [id$="__sv_hero_banner"] .banner__text { text-shadow: 0 1px 8px rgba(255,255,255,.6); }
-  [id$="__sv_hero_banner"] .banner__box { max-width: 100%; }
+  [id$="__sv_hero_banner"] .banner__box {
+    max-width: 92%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  [id$="__sv_hero_banner"] .banner__heading {
+    font-size: 32px;
+    line-height: 1.06;
+    text-shadow: 0 1px 10px rgba(255,255,255,.8), 0 1px 2px rgba(255,255,255,.95);
+  }
+  [id$="__sv_hero_banner"] .banner__text {
+    text-shadow: 0 1px 8px rgba(255,255,255,.9);
+  }
 }
