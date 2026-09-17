@@ -181,7 +181,7 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
   [id$="__sv_hero_banner"] .banner__content {
     position: static !important;
     padding: 48px 22px 40px !important;
-    background: #F5F2FC;
+    background: #F4ECE0;
   }
   [id$="__sv_hero_banner"] .banner__box {
     max-width: 100%;
