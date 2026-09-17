@@ -212,3 +212,11 @@ h1, h2, h3, .h0, .h1, .h2, .h3,
     padding: 15px 40px;
   }
 }
+
+/* Remove the hard square border-ring around buttons (theme buttons_radius is 0,
+   so Dawn's .button::after drew a black rectangle around our rounded pills) */
+.button::after,
+.shopify-payment-button__button--unbranded::after {
+  box-shadow: none !important;
+  border: 0 !important;
+}
