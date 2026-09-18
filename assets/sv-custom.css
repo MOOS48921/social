@@ -39,10 +39,10 @@
 :root { --sv-bb-border: #E4DEF5; }
 
 /* top anchor is invisible (just a position marker) */
-.product__info-container > *:has(> .sv-buybox-start) { display: none !important; }
+.product__info-container > .sv-buybox-start { display: none !important; }
 
 /* every block from the top marker down: side borders + white bg, no vertical gaps */
-.product__info-container > *:has(> .sv-buybox-start) ~ * {
+.product__info-container > .sv-buybox-start ~ * {
   border-left: 1px solid var(--sv-bb-border) !important;
   border-right: 1px solid var(--sv-bb-border) !important;
   margin-top: 0 !important;
@@ -52,7 +52,7 @@
   background: #fff;
 }
 /* top cap = first block after the marker (the CHOOSE YOUR QUANTITY heading) */
-.product__info-container > *:has(> .sv-buybox-start) + * {
+.product__info-container > .sv-buybox-start + * {
   border-top: 1px solid var(--sv-bb-border) !important;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
@@ -60,7 +60,7 @@
   margin-top: 18px !important;
 }
 /* bottom cap = the end-marker block: a thin strip that closes the box */
-.product__info-container > *:has(> .sv-buybox-end) {
+.product__info-container > .sv-buybox-end {
   border-bottom: 1px solid var(--sv-bb-border) !important;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
@@ -71,14 +71,14 @@
 }
 .sv-buybox-end { height: 0; }
 /* stop the border for everything after the box */
-.product__info-container > *:has(> .sv-buybox-end) ~ * {
+.product__info-container > .sv-buybox-end ~ * {
   border-left: 0 !important;
   border-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
   background: transparent;
 }
-.product__info-container > *:has(> .sv-buybox-end) + * { margin-top: 18px !important; }
+.product__info-container > .sv-buybox-end + * { margin-top: 18px !important; }
 
 /* PDP FAQ heading purple like Outty */
 [id$="__pdp_faq"] .collapsible-content__heading {
