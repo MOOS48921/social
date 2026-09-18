@@ -34,51 +34,18 @@
 /* Hide the black dynamic-checkout ("Buy it now") button — Outty has only one purple button */
 [id$="__main"] .shopify-payment-button { display: none !important; }
 
-/* Outty-style bordered buy box — pure CSS segmented border across the block group.
-   Uses two hidden anchor blocks (.sv-buybox-start / .sv-buybox-end) as CSS markers. */
-:root { --sv-bb-border: #E4DEF5; }
-
-/* top anchor is invisible (just a position marker) */
-.product__info-container > .sv-buybox-start { display: none !important; }
-
-/* every block from the top marker down: side borders + white bg, no vertical gaps */
-.product__info-container > .sv-buybox-start ~ * {
-  border-left: 1px solid var(--sv-bb-border) !important;
-  border-right: 1px solid var(--sv-bb-border) !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-left: 16px !important;
-  padding-right: 16px !important;
+/* Outty-style bordered buy box — one wrapper (built by JS around the markers) */
+.sv-buybox {
+  border: 1px solid #E4DEF5;
+  border-radius: 18px;
+  padding: 18px 16px 16px;
+  margin: 16px 0;
   background: #fff;
+  box-shadow: 0 1px 12px rgba(90, 50, 160, .06);
 }
-/* top cap = first block after the marker (the CHOOSE YOUR QUANTITY heading) */
-.product__info-container > .sv-buybox-start + * {
-  border-top: 1px solid var(--sv-bb-border) !important;
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
-  padding-top: 16px !important;
-  margin-top: 18px !important;
-}
-/* bottom cap = the end-marker block: a thin strip that closes the box */
-.product__info-container > .sv-buybox-end {
-  border-bottom: 1px solid var(--sv-bb-border) !important;
-  border-bottom-left-radius: 18px;
-  border-bottom-right-radius: 18px;
-  height: 16px;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  margin-bottom: 18px !important;
-}
-.sv-buybox-end { height: 0; }
-/* stop the border for everything after the box */
-.product__info-container > .sv-buybox-end ~ * {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  background: transparent;
-}
-.product__info-container > .sv-buybox-end + * { margin-top: 18px !important; }
+.sv-buybox > * { margin-top: 12px !important; margin-bottom: 0 !important; }
+.sv-buybox > *:first-child { margin-top: 0 !important; }
+.sv-buybox-start, .sv-buybox-end { display: none !important; }
 
 /* PDP FAQ heading purple like Outty */
 [id$="__pdp_faq"] .collapsible-content__heading {
